@@ -1,8 +1,8 @@
 <toolSet name="External Tools">
-  <tool name="errcheck" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="errcheck" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="true" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="$USER_HOME$/IdeaProjects/GO/bin/errcheck" />
-      <option name="PARAMETERS" value="$USER_HOME$/IdeaProjects/GO/src/Commander" />
+      <option name="PARAMETERS" value="../src/Commander" />
       <option name="WORKING_DIRECTORY" value="$USER_HOME$/IdeaProjects/GO/bin" />
     </exec>
   </tool>
