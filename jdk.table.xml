@@ -1,25 +1,36 @@
 <application>
   <component name="ProjectJdkTable">
     <jdk version="2">
-      <name value="Go 1.7.1" />
-      <type value="Go SDK" />
-      <version value="1.7.1" />
-      <homePath value="/usr/local/Cellar/go/1.7.1/libexec" />
+      <name value="Kahlua" />
+      <type value="Lua SDK" />
+      <homePath value="" />
       <roots>
-        <annotationsPath>
-          <root type="composite" />
-        </annotationsPath>
         <classPath>
           <root type="composite">
-            <root type="simple" url="file:///usr/local/Cellar/go/1.7.1/libexec/src" />
+            <root type="simple" url="file://$APPLICATION_PLUGINS_DIR$/Lua/classes/stdlibrary" />
           </root>
         </classPath>
-        <javadocPath>
-          <root type="composite" />
-        </javadocPath>
         <sourcePath>
           <root type="composite">
-            <root type="simple" url="file:///usr/local/Cellar/go/1.7.1/libexec/src" />
+            <root type="simple" url="file://$APPLICATION_PLUGINS_DIR$/IDLua/stdlibrary" />
+          </root>
+        </sourcePath>
+      </roots>
+      <additional />
+    </jdk>
+    <jdk version="2">
+      <name value="LuaJ" />
+      <type value="Lua SDK" />
+      <homePath value="" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root type="simple" url="file://$APPLICATION_PLUGINS_DIR$/Lua/classes/stdlibrary" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite">
+            <root type="simple" url="file://$APPLICATION_PLUGINS_DIR$/IDLua/stdlibrary" />
           </root>
         </sourcePath>
       </roots>
