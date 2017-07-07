@@ -1,0 +1,12 @@
+<keymap version="1" name="Default copy" parent="Mac OS X 10.5+">
+  <action id="EditSource">
+    <keyboard-shortcut first-keystroke="meta down" />
+  </action>
+  <action id="GotoRelated">
+    <keyboard-shortcut first-keystroke="ctrl meta up" />
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="XDebugger.JumpToSource">
+    <keyboard-shortcut first-keystroke="meta down" />
+  </action>
+</keymap>
