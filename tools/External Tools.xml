@@ -11,14 +11,14 @@
       <option name="REGEXP" value="$FILE_PATH$:$LINE$" />
     </filter>
   </tool>
-  <tool name="gometalinter" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="gometalinter" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="$USER_HOME$/IdeaProjects/GO/bin/gometalinter" />
       <option name="PARAMETERS" value="--deadline=30s --vendor $FileDir$" />
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
     <filter>
-      <option name="NAME" value="Filter Code &amp; line result" />
+      <option name="NAME" value="No name" />
       <option name="DESCRIPTION" />
       <option name="REGEXP" value="$FILE_PATH$:$LINE$" />
     </filter>
