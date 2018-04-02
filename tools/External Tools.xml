@@ -20,7 +20,7 @@
     <filter>
       <option name="NAME" value="" />
       <option name="DESCRIPTION" value="" />
-      <option name="REGEXP" value="/Users/andrews/IdeaProjects/GO/src/Commander/$FILE_PATH$:$LINE$" />
+      <option name="REGEXP" value="$ProjectFileDir$/$FILE_PATH$:$LINE$:$COLUMNS$" />
     </filter>
   </tool>
 </toolSet>
