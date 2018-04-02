@@ -15,7 +15,7 @@
     <exec>
       <option name="COMMAND" value="$USER_HOME$/IdeaProjects/GO/bin/gometalinter" />
       <option name="PARAMETERS" value="--deadline=30s --vendor $FileDir$" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
 </toolSet>
