@@ -1,9 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'Commander'" />
-    <option name="defaultScopeName" value="Project 'Commander'" />
+    <option name="customScope" value="Project 'react-commander'" />
+    <option name="defaultScopeName" value="Project 'react-commander'" />
     <option name="skipResultsWithOneUsage" value="true" />
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
-    <option name="SEARCH_SCOPE" value="Project 'Commander'" />
+    <option name="SEARCH_SCOPE" value="Project 'react-commander'" />
   </component>
 </application>
