@@ -1,5 +1,6 @@
 <application>
   <component name="PrintSettings">
-    <option name="printScope" value="4" />
+    <option name="printScope" value="1" />
+    <option name="FOOTER_HEADER_FONT_SIZE" value="12" />
   </component>
 </application>
