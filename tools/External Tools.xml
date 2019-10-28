@@ -26,7 +26,7 @@
   <tool name="golangci-lint" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="golangci-lint" />
-      <option name="PARAMETERS" value="run --disable-all -E unparam   ./..." />
+      <option name="PARAMETERS" value="run --disable-all -E prealloc    ./..." />
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
