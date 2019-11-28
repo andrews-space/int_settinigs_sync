@@ -4,6 +4,8 @@
     <extensionMap>
       <mapping pattern="*.js.flow" type="Flow" />
       <mapping pattern="*.js.flow" type="Flow" />
+      <mapping pattern="minikube_2" type="PLAIN_TEXT" />
+      <mapping pattern="minikube_3" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
