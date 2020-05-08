@@ -1,0 +1,13 @@
+<application>
+  <component name="SettingsState">
+    <option name="gitlabServers">
+      <list>
+        <GitlabServer>
+          <option name="apiToken" value="1zBmdmEa8S4LS6bkYhf_" />
+          <option name="apiUrl" value="https://gitlab.idb.local/" />
+          <option name="repositoryUrl" value="gitlab.idb.local" />
+        </GitlabServer>
+      </list>
+    </option>
+  </component>
+</application>

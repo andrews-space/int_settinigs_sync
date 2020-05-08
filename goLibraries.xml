@@ -3,6 +3,7 @@
     <option name="urls">
       <list>
         <option value="file://$USER_HOME$" />
+        <option value="file://$USER_HOME$/IdeaProjects/GO" />
       </list>
     </option>
   </component>

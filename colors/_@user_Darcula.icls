@@ -4,11 +4,25 @@
     <property name="created">2017-04-22T12:09:33</property>
     <property name="ide">CLion</property>
     <property name="ideVersion">2017.2.0.0</property>
-    <property name="modified">2018-10-20T12:13:27</property>
+    <property name="modified">2020-01-28T17:59:21</property>
     <property name="originalScheme">Darcula</property>
   </metaInfo>
-  <option name="LINE_SPACING" value="1.0" />
-  <option name="EDITOR_FONT_SIZE" value="14" />
-  <option name="EDITOR_FONT_NAME" value="Input Mono Condensed" />
+  <option name="LINE_SPACING" value="1.2" />
+  <option name="EDITOR_FONT_SIZE" value="13" />
+  <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
   <option name="EDITOR_LIGATURES" value="true" />
+  <attributes>
+    <option name="LINE_NONE_COVERAGE">
+      <value>
+        <option name="FOREGROUND" value="622071" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="LINE_PARTIAL_COVERAGE">
+      <value>
+        <option name="FOREGROUND" value="80805a" />
+        <option name="FONT_TYPE" value="3" />
+      </value>
+    </option>
+  </attributes>
 </scheme>

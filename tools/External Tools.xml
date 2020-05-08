@@ -11,10 +11,10 @@
       <option name="REGEXP" value="$FILE_PATH$:$LINE$" />
     </filter>
   </tool>
-  <tool name="gometalinter" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="golint" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="$USER_HOME$/IdeaProjects/GO/bin/gometalinter" />
-      <option name="PARAMETERS" value="--deadline=60s --vendor --format=&quot;{{.Path.Abs}}:{{.Line}}:{{if .Col}}{{.Col}}{{end}}:{{.Severity}}: {{.Message}} ({{.Linter}})&quot; $FileDir$" />
+      <option name="COMMAND" value="$USER_HOME$/IdeaProjects/GO/bin/golint " />
+      <option name="PARAMETERS" value="./..." />
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
     <filter>
@@ -22,5 +22,12 @@
       <option name="DESCRIPTION" />
       <option name="REGEXP" value="$FILE_PATH$:$LINE$" />
     </filter>
+  </tool>
+  <tool name="golangci-lint" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="golangci-lint" />
+      <option name="PARAMETERS" value="run  ./..." />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
   </tool>
 </toolSet>
