@@ -10,6 +10,11 @@
         <option value="/usr/local/Cellar/go/1.11.4/libexec" />
         <option value="/usr/local/Cellar/go/1.12.1/libexec" />
         <option value="/usr/local/Cellar/go/1.13.1/libexec" />
+        <option value="/usr/local/Cellar/go/1.13.4/libexec" />
+        <option value="/usr/local/Cellar/go/1.13.6/libexec" />
+        <option value="/usr/local/Cellar/go/1.14.1/libexec" />
+        <option value="/usr/local/Cellar/go/1.14.2_1/libexec" />
+        <option value="/usr/local/Cellar/go/1.14/libexec" />
         <option value="/usr/local/Cellar/go/1.8.3/libexec" />
         <option value="/usr/local/opt/go/libexec" />
       </set>
