@@ -16,6 +16,7 @@
         <option value="/usr/local/Cellar/go/1.14.2_1/libexec" />
         <option value="/usr/local/Cellar/go/1.14.3/libexec" />
         <option value="/usr/local/Cellar/go/1.14.4/libexec" />
+        <option value="/usr/local/Cellar/go/1.14.5/libexec" />
         <option value="/usr/local/Cellar/go/1.14/libexec" />
         <option value="/usr/local/Cellar/go/1.8.3/libexec" />
         <option value="/usr/local/opt/go/libexec" />
