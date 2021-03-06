@@ -47,6 +47,14 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.al">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.perl5" />
+              <option name="myPluginName" value="Perl" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.android_data_binding">
           <value>
             <plugin>
@@ -134,6 +142,14 @@
               <option name="myPluginId" value="com.intellij.platform.images" />
               <option name="myPluginName" value="com.intellij.platform.images" />
               <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.cgi">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.perl5" />
+              <option name="myPluginName" value="Perl" />
             </plugin>
           </value>
         </entry>
@@ -1238,6 +1254,14 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.ph">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.perl5" />
+              <option name="myPluginName" value="Perl" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.pkb">
           <value>
             <plugin>
@@ -1262,11 +1286,27 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.pl">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.perl5" />
+              <option name="myPluginName" value="Perl" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.plsql">
           <value>
             <plugin>
               <option name="myPluginId" value="DBN" />
               <option name="myPluginName" value="Database Navigator" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.pm">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.perl5" />
+              <option name="myPluginName" value="Perl" />
             </plugin>
           </value>
         </entry>
@@ -1285,6 +1325,14 @@
               <option name="myPluginId" value="com.intellij.platform.images" />
               <option name="myPluginName" value="com.intellij.platform.images" />
               <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.pod">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.perl5" />
+              <option name="myPluginName" value="Perl" />
             </plugin>
           </value>
         </entry>
@@ -1596,6 +1644,14 @@
               <option name="myPluginId" value="com.intellij" />
               <option name="myPluginName" value="IDEA CORE" />
               <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.t">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.perl5" />
+              <option name="myPluginName" value="Perl" />
             </plugin>
           </value>
         </entry>
@@ -1943,6 +1999,14 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.xs">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.perl5" />
+              <option name="myPluginName" value="Perl" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.xsd">
           <value>
             <plugin>
@@ -2267,6 +2331,14 @@
             </plugin>
           </value>
         </entry>
+        <entry key="cpanfile">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.perl5" />
+              <option name="myPluginName" value="Perl" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="exclude">
           <value>
             <plugin>
@@ -2457,6 +2529,16 @@
             <FeaturePluginsList>
               <option name="featureMap">
                 <map>
+                  <entry key="#PerlConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Perl" pluginName="Perl" pluginId="com.perl5" />
+                    </value>
+                  </entry>
+                  <entry key="#PerlRemoteDebuggingConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Perl Remote Debugging" pluginName="Perl" pluginId="com.perl5" />
+                    </value>
+                  </entry>
                   <entry key="#com.intellij.j2ee.web.jsr45.JSR45ConfigurationFactory">
                     <value>
                       <FeaturePluginData displayName="JSR45 Compatible Server" pluginName="Debugger Support for JSP (JSR45)" pluginId="JSR45Plugin" />
@@ -2735,6 +2817,11 @@
                   <entry key="NodeunitConfigurationType">
                     <value>
                       <FeaturePluginData displayName="Nodeunit" pluginName="Node.js" pluginId="NodeJS" />
+                    </value>
+                  </entry>
+                  <entry key="PerlTestRunConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="Perl5 Test" pluginName="Perl" pluginId="com.perl5" />
                     </value>
                   </entry>
                   <entry key="PythonConfigurationType">
