@@ -7,6 +7,16 @@
             <FeaturePluginsList>
               <option name="featureMap">
                 <map>
+                  <entry key="#PerlConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Perl" pluginName="Perl" pluginId="com.perl5" />
+                    </value>
+                  </entry>
+                  <entry key="#PerlRemoteDebuggingConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Perl Remote Debugging" pluginName="Perl" pluginId="com.perl5" />
+                    </value>
+                  </entry>
                   <entry key="#com.intellij.j2ee.web.jsr45.JSR45ConfigurationFactory">
                     <value>
                       <FeaturePluginData displayName="JSR45 Compatible Server" pluginName="Debugger Support for JSP (JSR45)" pluginId="JSR45Plugin" bundled="true" />
@@ -77,6 +87,16 @@
                       <FeaturePluginData displayName="Cucumber Java" pluginName="Cucumber for Java" pluginId="cucumber-java" bundled="true" />
                     </value>
                   </entry>
+                  <entry key="DBNMethodRunConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="DB Method" pluginName="Database Navigator" pluginId="DBN" />
+                    </value>
+                  </entry>
+                  <entry key="DBNStatementRunConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="DB Statement" pluginName="Database Navigator" pluginId="DBN" />
+                    </value>
+                  </entry>
                   <entry key="DatabaseScript">
                     <value>
                       <FeaturePluginData displayName="Database Script" pluginName="Database Tools and SQL" pluginId="com.intellij.database" bundled="true" />
@@ -90,6 +110,26 @@
                   <entry key="GlassfishConfiguration">
                     <value>
                       <FeaturePluginData displayName="GlassFish Server" pluginName="GlassFish" pluginId="GlassFish" bundled="true" />
+                    </value>
+                  </entry>
+                  <entry key="GoAppEngineRunConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="Go App Engine" pluginName="Go" pluginId="org.jetbrains.plugins.go" />
+                    </value>
+                  </entry>
+                  <entry key="GoApplicationRunConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="Go Build" pluginName="Go" pluginId="org.jetbrains.plugins.go" />
+                    </value>
+                  </entry>
+                  <entry key="GoRemoteDebugConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Go Remote" pluginName="Go" pluginId="org.jetbrains.plugins.go" />
+                    </value>
+                  </entry>
+                  <entry key="GoTestRunConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="Go Test" pluginName="Go" pluginId="org.jetbrains.plugins.go" />
                     </value>
                   </entry>
                   <entry key="GradleRunConfiguration">
@@ -159,7 +199,7 @@
                   </entry>
                   <entry key="JetRunConfigurationType">
                     <value>
-                      <FeaturePluginData displayName="Kotlin" pluginName="Kotlin" pluginId="org.jetbrains.kotlin" bundled="true" />
+                      <FeaturePluginData displayName="Kotlin" pluginName="Kotlin" pluginId="org.jetbrains.kotlin" />
                     </value>
                   </entry>
                   <entry key="JettyConfiguration">
@@ -169,12 +209,12 @@
                   </entry>
                   <entry key="KotlinJavaScriptTestRunnerProtractor">
                     <value>
-                      <FeaturePluginData displayName="Protractor (Kotlin)" pluginName="org.jetbrains.kotlin" pluginId="org.jetbrains.kotlin" bundled="true" />
+                      <FeaturePluginData displayName="Protractor (Kotlin)" pluginName="org.jetbrains.kotlin" pluginId="org.jetbrains.kotlin" />
                     </value>
                   </entry>
                   <entry key="KotlinStandaloneScriptRunConfigurationType">
                     <value>
-                      <FeaturePluginData displayName="Kotlin script" pluginName="Kotlin" pluginId="org.jetbrains.kotlin" bundled="true" />
+                      <FeaturePluginData displayName="Kotlin script" pluginName="Kotlin" pluginId="org.jetbrains.kotlin" />
                     </value>
                   </entry>
                   <entry key="MavenRunConfiguration">
@@ -200,6 +240,11 @@
                   <entry key="NodeunitConfigurationType">
                     <value>
                       <FeaturePluginData displayName="Nodeunit" pluginName="Node.js" pluginId="NodeJS" bundled="true" />
+                    </value>
+                  </entry>
+                  <entry key="PerlTestRunConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="Perl5 Test" pluginName="Perl" pluginId="com.perl5" />
                     </value>
                   </entry>
                   <entry key="QuarkusRunConfigurationType">
@@ -364,7 +409,7 @@
                   </entry>
                   <entry key="kotlin-language">
                     <value>
-                      <FeaturePluginData displayName="Kotlin" pluginName="Kotlin" pluginId="org.jetbrains.kotlin" bundled="true" />
+                      <FeaturePluginData displayName="Kotlin" pluginName="Kotlin" pluginId="org.jetbrains.kotlin" />
                     </value>
                   </entry>
                   <entry key="native-android-gradle">
