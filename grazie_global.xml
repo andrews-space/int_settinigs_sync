@@ -11,6 +11,8 @@
         <option name="suppressed">
           <set>
             <option value="TMИ" />
+            <option value="RbfEсupFull" />
+            <option value="RbfEсupSU" />
           </set>
         </option>
       </SuppressingContext>
