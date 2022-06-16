@@ -10,7 +10,10 @@
       <SuppressingContext>
         <option name="suppressed">
           <set>
+            <option value="RbfEсupFull" />
             <option value="TMИ" />
+            <option value="RbfEсupSU" />
+            <option value="Супер костыль," />
           </set>
         </option>
       </SuppressingContext>
