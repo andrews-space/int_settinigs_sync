@@ -1,18 +1,12 @@
 <application>
   <component name="GraziConfig">
-    <option name="enabledLanguages">
-      <set>
-        <option value="English (US)" />
-        <option value="Russian" />
-      </set>
-    </option>
     <option name="suppressingContext">
       <SuppressingContext>
         <option name="suppressed">
           <set>
-            <option value="TMИ" />
             <option value="RbfEсupFull" />
             <option value="RbfEсupSU" />
+            <option value="TMИ" />
           </set>
         </option>
       </SuppressingContext>
