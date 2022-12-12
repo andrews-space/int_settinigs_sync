@@ -1,7 +1,6 @@
 <application>
   <component name="HttpConfigurable">
     <option name="PROXY_TYPE_IS_SOCKS" value="true" />
-    <option name="USE_HTTP_PROXY" value="true" />
     <option name="PROXY_HOST" value="138.68.104.166" />
     <option name="PROXY_PORT" value="8080" />
     <option name="PROXY_AUTHENTICATION" value="true" />
